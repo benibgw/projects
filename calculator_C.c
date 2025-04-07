@@ -22,13 +22,13 @@ main()
 
     scanf("%d", &opcao);
     return opcao;
-    } // cria uma função que retorna a opção escolhida pelo usuario (imput)
+    } // cria uma funÃ§Ã£o que retorna a opÃ§Ã£o escolhida pelo usuario (imput)
 
-    int escolha; // cria uma variavel para armazenar a função menu
+    int escolha; // cria uma variavel para armazenar a funÃ§Ã£o menu
 
     while (escolha != 8) {
 
-        escolha = menu(); // armazena o retorno da função menu
+        escolha = menu(); // armazena o retorno da funÃ§Ã£o menu
 
         switch (escolha) {
             case 1: {
@@ -115,7 +115,7 @@ main()
                 printf("\n"); // exibe o resultado
             }
             break;
-        } // analisa o valor da variavel opção, se for igual a algum caso (case) opera o mesmo
+        } // analisa o valor da variavel opÃ§Ã£o, se for igual a algum caso (case) opera o mesmo
 
         printf("\n ---Pressione ENTER para retornar ao menu---");
         getchar();
@@ -126,7 +126,7 @@ main()
         #else
             system("clear");
         #endif // _WIN32  // usado para limpar o console
-    } // repete de acordo com a condição imposta
+    } // repete de acordo com a condiÃ§Ã£o imposta
 
 return 0;
 }
