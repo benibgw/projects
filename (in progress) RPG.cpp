@@ -23,7 +23,7 @@ using namespace std;
             }
             void atack(){
 
-                cout << name << " atacou com " << strength << " de força !\n";
+                cout << name << " atacou com " << strength << " de forÃ§a !\n";
 
             }
 
