@@ -62,6 +62,12 @@ using namespace std;
             }
     };
 
+class Enemie{
+
+
+
+};
+
 int main(){
 
     string name;
