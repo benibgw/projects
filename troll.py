@@ -1,7 +1,7 @@
 import pyautogui
 import time
 
-mensagem = "Ain lorenzooooo-chann !!!"
+mensagem = "Message here!!!"
 quantidade = 500
 espera = 0.1
 
